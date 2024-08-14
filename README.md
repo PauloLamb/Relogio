@@ -10,4 +10,4 @@ implementações efetuadas:
 
 * o arquivo html não sofreu modificações em relação ao projeto inicial
 * o arquivo css original styles.css foi alterado para styles_mod.css (mantido o original para comparação. basta alterar o código html)
-* o arquivo js original scrip.js foi alterado para script_mod.js (mantido o original para comparação. basta alterar o código html)
+* o arquivo js original script.js foi alterado para script_mod.js (mantido o original para comparação. basta alterar o código html)
