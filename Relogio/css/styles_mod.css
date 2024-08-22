@@ -34,17 +34,268 @@ main {
     justify-content: center;
 }
 
-.number {
+.pontos {
     font-size: 1.2rem;
+    font-weight: 600;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    color: black;
+    text-align: center;
+    padding-left: 5px;    
+}
+
+.ponto-1 {
+    display: none;
+}
+
+.ponto-2 {
+    transform: rotate(6deg);
+}
+
+.ponto-3 {
+    transform: rotate(12deg);
+}
+
+.ponto-4 {
+    transform: rotate(18deg);
+}
+
+.ponto-5 {
+    transform: rotate(24deg);
+}
+
+.ponto-6 {
+    display: none;
+}
+
+.ponto-7 {
+    transform: rotate(36deg);
+}
+
+.ponto-8 {
+    transform: rotate(42deg);
+}
+
+.ponto-9 {
+    transform: rotate(48deg);
+}
+
+.ponto-10 {
+    transform: rotate(54deg);
+}
+
+.ponto-11 {
+    display: none;
+}
+
+.ponto-12 {
+    transform: rotate(66deg);
+}
+
+.ponto-13 {
+    transform: rotate(72deg);
+}
+
+.ponto-14 {
+    transform: rotate(78deg);
+}
+
+.ponto-15 {
+    transform: rotate(84deg);
+}
+
+.ponto-16 {
+    display: none;
+}
+
+.ponto-17 {
+    transform: rotate(96deg);
+}
+
+.ponto-18 {
+    transform: rotate(102deg);
+}
+
+.ponto-19 {
+    transform: rotate(108deg);
+}
+
+.ponto-20 {
+    transform: rotate(114deg);
+}
+
+.ponto-21 {
+    display: none;
+}
+
+.ponto-22 {
+    transform: rotate(126deg);
+}
+
+.ponto-23 {
+    transform: rotate(132deg);
+}
+
+.ponto-24 {
+    transform: rotate(138deg);
+}
+
+.ponto-25 {
+    transform: rotate(144deg);
+}
+
+.ponto-26 {
+    display: none;
+}
+
+.ponto-27 {
+    transform: rotate(156deg);
+}
+
+.ponto-28 {
+    transform: rotate(162deg);
+}
+
+.ponto-29 {
+    transform: rotate(168deg);
+}
+
+.ponto-30 {
+    transform: rotate(174deg);
+}
+
+.ponto-31 {
+    display: none;
+}
+
+.ponto-32 {
+    transform: rotate(186deg);
+}
+
+.ponto-33 {
+    transform: rotate(192deg);
+}
+
+.ponto-34 {
+    transform: rotate(198deg);
+}
+
+.ponto-35 {
+    transform: rotate(204deg);
+}
+
+.ponto-36 {
+    display: none;
+}
+
+.ponto-37 {
+    transform: rotate(216deg);
+}
+
+.ponto-38 {
+    transform: rotate(222deg);
+}
+
+.ponto-39 {
+    transform: rotate(228deg);
+}
+
+.ponto-40 {
+    transform: rotate(234deg);
+}
+
+.ponto-41 {
+    display: none;
+}
+
+.ponto-42 {
+    transform: rotate(246deg);
+}
+
+.ponto-43 {
+    transform: rotate(252deg);
+}
+
+.ponto-44 {
+    transform: rotate(258deg);
+}
+
+.ponto-45 {
+    transform: rotate(264deg);
+}
+
+.ponto-46 {
+    display: none;
+}
+
+.ponto-47 {
+    transform: rotate(276deg);
+}
+
+.ponto-48 {
+    transform: rotate(282deg);
+}
+
+.ponto-49 {
+    transform: rotate(288deg);
+}
+
+.ponto-50 {
+    transform: rotate(294deg);
+}
+
+.ponto-51 {
+    display: none;
+}
+
+.ponto-52 {
+    transform: rotate(306deg);
+}
+
+.ponto-53 {
+    transform: rotate(312deg);
+}
+
+.ponto-54 {
+    transform: rotate(318deg);
+}
+
+.ponto-55 {
+    transform: rotate(324deg);
+}
+
+.ponto-56 {
+    display: none;
+}
+
+.ponto-57 {
+    transform: rotate(336deg);
+}
+
+.ponto-58 {
+    transform: rotate(342deg);
+}
+
+.ponto-59 {
+    transform: rotate(348deg);
+}
+
+.ponto-60 {
+    transform: rotate(354deg);
+}
+
+
+
+.number {
+    font-size: 1.5rem;
     font-weight: 600;
     position: relative;
     width: 0px;
     height: 0px;
     text-align: center;
     align-items: center;
-    justify-content: center;
-    
-        
+    justify-content: center;        
     
 }
 
@@ -98,10 +349,10 @@ main {
 
 .second-hand {
     width: 5px;
-    height: 270px;
+    height: 265px;
     background-color: #a52a2a;
     position: absolute;
-    border-radius: 5px;
+    border-radius: 2.5px;
     transform: translate(0,-50%);
     transform-origin: bottom center;
 }
@@ -111,7 +362,7 @@ main {
     height: 220px;
     background-color: #333;
     position: absolute;
-    border-radius: 9px;
+    border-radius: 4.5px;
     transform: translate(0,-50%);
     transform-origin: bottom center;
     
@@ -122,7 +373,7 @@ main {
     height: 165px;
     background-color: #333;
     position: absolute;
-    border-radius: 15px;
+    border-radius: 6px;   
     transform: translate(0,-50%);
     transform-origin: bottom center;
 }
